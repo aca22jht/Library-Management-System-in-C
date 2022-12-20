@@ -80,7 +80,7 @@ void addBook(struct library *thislib){
     return 0;
 }
 
-//case 2) Delete a book from the collection by a particular title (CASE SENSITIVE :"))
+//case 2) Delete a book from the collection by a particular title)
 void deleteTitle(char titleName()){
    char line[101];
 
@@ -100,7 +100,7 @@ void deleteTitle(char titleName()){
 	fclose(up);
 }
 
-//case 3) Delete all books from the collection by a particular author (CASE SENSITIVE :'))
+//case 3) Delete all books from the collection by a particular author)
 void deleteAuthor(char authorName()){
    char line[101];
 
@@ -121,7 +121,7 @@ void deleteAuthor(char authorName()){
 }
 
 
-//Case 4) Search for a book from the collection by a particular title (CASE SENSITIVE :"))
+//Case 4) Search for a book from the collection by a particular title)
 void searchBook(char titleName[]){
     char line[101];
 
@@ -147,7 +147,7 @@ void searchBook(char titleName[]){
 
 }
 
-//Case 5) Search for all books from the collection by a particular author (CASE SENSITIVE :"))
+//Case 5) Search for all books from the collection by a particular author)
 void searchAuthor(char authorName[]){
     char line[101];
 
@@ -166,7 +166,7 @@ void searchAuthor(char authorName[]){
 	fclose(up);
 }
 
-//Case 6)  List all of the books by a particular author from the collection (CASE SENSITIVE :"))
+//Case 6)  List all of the books by a particular author from the collection)
 void listAuthor(char authorName[]){ //(7)
     char line[101];
 
@@ -185,7 +185,7 @@ void listAuthor(char authorName[]){ //(7)
 	fclose(up);
 }
 
-//Case 7) List all of the books by a particular subject from the collection (CASE SENSITIVE :"))
+//Case 7) List all of the books by a particular subject from the collection)
 void listSub(char subName[]){
     char line[101];
 
@@ -278,7 +278,7 @@ int main()
     char stitle[MAX];
     char sauthor[MAX];
     char ssubject[MAX];
-    //NOTE: ALL searching and listing operations are CASE SENSITIVE and not CAPITALIZATION PRESERVED. I tried to make them CAPITALIZATION PRESERVED, but then I ended up crying :") I'm sorry sir...
+   
         printf("\n\n1) Add a book to a collection\n");
         printf("2) Delete a book from the collection by a particular title\n");
         printf("3) Delete all books from the collection by a particular author\n");
@@ -353,7 +353,7 @@ int main()
 
 					case 8:
 					    system("cls");
-						display(0); //working
+						display(0); 
 					break;
 					default:
 					    system("cls");
