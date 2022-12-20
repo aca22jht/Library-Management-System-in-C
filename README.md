@@ -1,2 +1,2 @@
 # Library Management System in C
- Library Management System in C programming
+ First Year Programming & Algorithm Project: Library Management System in C programming
