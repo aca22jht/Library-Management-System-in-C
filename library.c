@@ -36,7 +36,7 @@ void addBook(struct library *thislib){
 	char sauthor[MAX];
 	char ssubject[MAX];
 	up = fopen("library.txt", "a");
-    system("cls");
+        system("cls");
 	printf("Enter Title: ");
 	scanf("%s", stitle);
 	printf("Enter Author: ");
@@ -225,7 +225,6 @@ void display(struct library *thislib){
     fclose(up);
 }
 
-//Additional creativity light bulb that I felt like adding
 void welcomeMessage()
 {
     printf("\n\n\n\n\n");
