@@ -268,8 +268,7 @@ int main()
 {
     welcomeMessage();
     system("cls"); //clears current page for next executable instruction
-	printf("DONE BY: Jasmine Hui Ping Tay\n");
-	printf("STUDENT ID: ACCA22JHT");
+	printf("DONE BY: JASMINE HUI PING TAY (ACA22JHT)\n");
 
 	printf("\n<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<MAIN MENU>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
 	unsigned int choice;
