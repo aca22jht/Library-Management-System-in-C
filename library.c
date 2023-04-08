@@ -292,71 +292,72 @@ int main()
         scanf("%u", &choice);
 
                     switch(choice){
-					case 1:
-					    addBook(0);
-					break;
+			case 1:
+				addBook(0);
+			break;
 
-					case 2:
-					    system("cls");
-                        printf("\nEnter the title to delete the book(s) with this particular title: ");
-                        getchar();
-                        gets(stitle);
-                        printf("Available books now in library are: ");
-                        deleteTitle(stitle);
-					break;
+			case 2:
+				system("cls");
+                        	printf("\nEnter the title to delete the book(s) with this particular title: ");
+                        	getchar();
+                        	gets(stitle);
+                        	printf("Available books now in library are: ");
+                        	deleteTitle(stitle);
+			break;
 
-					case 3:
-					    system("cls");
-                        printf("\nEnter the author name to delete all books authored by him/her: ");
-                        getchar();
-                        gets(sauthor);
-                        printf("Available books now in library are: ");
-                        deleteAuthor(sauthor);
-					break;
+			case 3:
+				system("cls");
+                       	 	printf("\nEnter the author name to delete all books authored by him/her: ");
+                        	getchar();
+                        	gets(sauthor);
+                        	printf("Available books now in library are: ");
+                        	deleteAuthor(sauthor);
+			break;
 
-					case 4:
-                        system("cls");
-                        printf("\nEnter the title: ");
-                        getchar();
-                        gets(stitle);
-                        searchBook(stitle);
-					break;
+			case 4:
+                        	system("cls");
+                        	printf("\nEnter the title: ");
+                        	getchar();
+                        	gets(stitle);
+                        	searchBook(stitle);
+			break;
 
-					case 5:
-                        system("cls");
-                        printf("\nEnter an author to search for all books in the library authored by him/her: ");
-                        getchar();
-                        gets(sauthor);
-                        printf("\nList of all books by %s: ", sauthor);
-                        searchAuthor(sauthor);
-					break;
+			case 5:
+                        	system("cls");
+                        	printf("\nEnter an author to search for all books in the library authored by him/her: ");
+                        	getchar();
+                        	gets(sauthor);
+                        	printf("\nList of all books by %s: ", sauthor);
+                        	searchAuthor(sauthor);
+			break;
 
-					case 6:
-                        system("cls");
-                        printf("\nEnter an author to list all books in the library authored by him/her: ");
-                        getchar();
-                        gets(sauthor);
-                        printf("\nList of all books by %s: ", sauthor);
-                        listAuthor(sauthor);
-                    break;
+		  	case 6:
+                        	system("cls");
+                       		printf("\nEnter an author to list all books in the library authored by him/her: ");
+                        	getchar();
+                        	gets(sauthor);
+                        	printf("\nList of all books by %s: ", sauthor);
+                        	listAuthor(sauthor);
+                    	break;
 
-                    case 7:
-                        system("cls");
-                        printf("\nEnter a subject to list all books in the library containing it: ");
-                        getchar();
-                        gets(ssubject);
-                        printf("\nList of all books on %s: ", ssubject);
-                        listSub(ssubject);
-                    break;
+                    	case 7:
+                       		system("cls");
+                       		printf("\nEnter a subject to list all books in the library containing it: ");
+                        	getchar();
+                        	gets(ssubject);
+                        	printf("\nList of all books on %s: ", ssubject);
+                        	listSub(ssubject);
+                    	break;
 
-					case 8:
-					    system("cls");
-						display(0); 
-					break;
-					default:
-					    system("cls");
-						printf("Invalid choice...\n");
-						printf("Thank you & have a nice day! :D\n");
+			case 8:
+				system("cls");
+				display(0); 
+			break;
+				    
+			default:
+				system("cls");
+				printf("Invalid choice...\n");
+				printf("Thank you & have a nice day! :D\n");
                     }
 
 }
